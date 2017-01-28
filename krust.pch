@@ -1,0 +1,28 @@
+//
+//  krust.pch
+//  Krust
+//
+//  Created by Pankaj Sharma on 25/07/15.
+//  Copyright (c) 2015 Pankaj. All rights reserved.
+//
+
+#ifndef Krust_krust_pch
+#define Krust_krust_pch
+
+#import"HomeVC.h"
+#import"LeaderBoardVC.h"
+#import"cameraVC.h"
+#import"notificationVC.h"
+#import"ChangleVC.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+UIStoryboard *storyboard;
+HomeVC *ViewControllerObj;
+LeaderBoardVC *FirstViewControllerObj;
+cameraVC *SecondViewControllerObj;
+notificationVC *ThirdViewControllerObj;
+ChangleVC *ForthViewControllerObj;
+
+#endif
